@@ -1,7 +1,0 @@
-Don't need traces to GND pins if there is a fill already connecting to the pin.
-There are large GND 'islands' that current can't flow through. You have the right idea creating large GND planes but in the corners for example they don't connect between layers.
-Also added some vias to allow the ground plane to fill in the hole on the front layer.
-Layers don't match up.
-There was a trace outlining the board...the fill covers this so remove it.
-Net-(JS-Pad2) can be simplified
-Avoid right-angle connections, they are hard to manufacture and may not be created correctly. It'll likely be OK with these large(ish) trace sizes but it can't hurt to be careful especially with cheap manufacturers.
